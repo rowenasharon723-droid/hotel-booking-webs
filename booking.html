@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Book Hotel</title>
+</head>
+<body>
+  <h1>Book Hotel</h1>
+
+  <form id="bookingForm">
+    <label>Check-in:
+      <input type="date" id="checkIn" required />
+    </label>
+    <label>Check-out:
+      <input type="date" id="checkOut" required />
+    </label>
+    <label>Guests:
+      <input type="number" id="guests" value="2" min="1" required />
+    </label>
+    <button type="submit">Book Now</button>
+  </form>
+
+  <script src="booking.js"></script>
+</body>
+</html>
